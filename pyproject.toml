@@ -1,0 +1,20 @@
+[project]
+name = "rosa-delivery-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Amarachi Chukwu", email = "chukwa2@mcmaster.ca" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.5.3",
+    "streamlit>=1.65.0",
+]
+
+[project.scripts]
+rosa-delivery-app = "rosa_delivery_app:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
